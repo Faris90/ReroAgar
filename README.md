@@ -12,8 +12,7 @@ Current version : *1.0**
 
 Original MultiOgar code is based on the private server implementation [Ogar](https://github.com/OgarProject/Ogar). The original code rightfully belongs to the [OgarProject](https://github.com/OgarProject).
 
-MultiOgar-Edited code however, is based on MultiOgar code that has been heavily modified and improved by many collaborators. The overall goal of this fork is to make physics as vanilla as possible, cleanup most of the code, and add lots of new features while maintaining better performance than the original MultiOgar.
-
+ReroAgar is better than [AJS-development](https://github.com/AJS-development/OpenAgar)
 ## MultiOgar-Edited Wiki
 Please see the issue template before you make an issue, you can find it [here](https://github.com/Megabyte918/MultiOgar-Edited/wiki/Issue-Template). Along with client information, and a FAQ section. More coming soon!
 
