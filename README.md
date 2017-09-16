@@ -13,8 +13,8 @@ Current version : *1.0**
 Original MultiOgar code is based on the private server implementation [Ogar](https://github.com/OgarProject/Ogar). The original code rightfully belongs to the [OgarProject](https://github.com/OgarProject).
 
 ReroAgar is better than [AJS-development](https://github.com/AJS-development/OpenAgar)
-## MultiOgar-Edited Wiki
-Please see the issue template before you make an issue, you can find it [here](https://github.com/Megabyte918/MultiOgar-Edited/wiki/Issue-Template). Along with client information, and a FAQ section. More coming soon!
+## ReroAgar Wiki
+wiki isn't finished
 
 ## Installation
 ### Windows:
