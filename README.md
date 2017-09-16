@@ -1,11 +1,11 @@
-# MultiOgar-Edited
+# ReroAgar
 
-A fast, open source server that supports multiple protocol versions and smooth vanilla physics.
+A fast, open source server that supports multiple protocol versions , smooth vanilla physics , unique settings ,
+# AND MORE!
 
-Since August of 2016, [Barbosik](https://github.com/Barbosik) has stopped working on this project. So I forked the code and remade it into MultiOgar-Edited. An updated version of the previous MultiOgar.
 
 ## Information
-Current version : **1.6.1**
+Current version : *1.0**
 
 ![Language](https://img.shields.io/badge/language-node.js-yellow.svg)
 [![License](https://img.shields.io/badge/license-APACHE2-blue.svg)](https://github.com/Barbosik/OgarMulti/blob/master/LICENSE.md)
