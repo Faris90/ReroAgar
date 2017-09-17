@@ -24,7 +24,11 @@ PlayerCell.prototype.getSpeed = function (dist) {
 
 PlayerCell.prototype.onAdd = function (gameServer) {
     // Add to player nodes list
-    this.color = this.owner.color;
+     this.color = this.owner.color;
+    if ( !this.gameServer.config.playerRandomSplitColor == 1){
+this.color = { r: Math.round(Math.random() * 360), g: Math.round(Math.random() * 360), b: Math.round(Math.random() * 360)};   
+    }
+    
     this.owner.cells.push(this);
     this.owner.socket.packetHandler.sendPacket(new Packet.AddNode(this.owner, this));
     this.gameServer.nodesPlayer.unshift(this);
