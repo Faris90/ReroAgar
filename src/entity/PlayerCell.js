@@ -13,7 +13,7 @@ PlayerCell.prototype = new Cell();
 // Main Functions
 
 PlayerCell.prototype.canEat = function (cell) {
-    return Math.floor((Math.random() * 2) + 1) == 2 ; // player cell can eat anyone
+    return Math.floor((Math.random() * 5) + 1) == 5 ; // player cell can eat anyone
 };
 
 PlayerCell.prototype.getSpeed = function (dist) {
