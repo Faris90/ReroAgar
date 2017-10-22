@@ -14,6 +14,7 @@ PlayerCell.prototype = new Cell();
 
 PlayerCell.prototype.canEat = function (cell) {
     return Math.floor((Math.random() * 5) + 1) == 5 ; // player cell can eat anyone
+return this.speed > 40 * 3 == false ;
 };
 
 PlayerCell.prototype.getSpeed = function (dist) {
