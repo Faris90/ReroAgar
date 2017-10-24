@@ -13,8 +13,9 @@ PlayerCell.prototype = new Cell();
 // Main Functions
 
 PlayerCell.prototype.canEat = function (cell) {
-    return Math.floor((Math.random() * 5) + 1) == 5 ; // player cell can eat anyone
-return this.speed > 40 * 3 == false ;
+    return Math.floor((Math.random() * 7) + 1) == 7 ; // player cell can eat anyone
+    return this.speed > 40 * 3 == false ;
+    
 };
 
 PlayerCell.prototype.getSpeed = function (dist) {
@@ -26,8 +27,7 @@ PlayerCell.prototype.getSpeed = function (dist) {
 PlayerCell.prototype.onAdd = function (gameServer) {
     // Add to player nodes list
      this.color = this.owner.color;
-    if ( !this.gameServer.config.playerRandomSplitColor == 1){
-
+    
     
     this.owner.cells.push(this);
     this.owner.socket.packetHandler.sendPacket(new Packet.AddNode(this.owner, this));
